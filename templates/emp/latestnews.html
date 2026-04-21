@@ -1,0 +1,13 @@
+{%extends "emp/base.html"%} {% block body_block %}
+
+<h2 class="mt-4 ms-5">Latest News</h2>
+
+<ul class="mt-3">
+  {% for n in news %}
+  <li>
+    <a href="/detail/{{n.id}}"> {{ n.title }} </a>
+  </li>
+  {% endfor %}
+</ul>
+
+{%endblock%}

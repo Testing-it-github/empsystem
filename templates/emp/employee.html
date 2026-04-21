@@ -1,0 +1,23 @@
+{%extends "emp/base.html"%} {% block body_block %}
+
+<div class="container mt-5 custom-margin">
+  <div class="row justify-content-center">
+    <div class="col-md-4 d-flex flex-column align-items-center gap-4">
+      <a href="{% url 'news'%}">
+        <button class="custom-btn">LATEST NEWS</button>
+      </a>
+
+      <a href="{% url 'jobdata'%}">
+        <button class="custom-btn">CURRENT OPENINGS</button>
+      </a>
+    </div>
+
+    <div class="col-md-4 d-flex flex-column align-items-center gap-4">
+      <a href="{% url 'holidays'%}">
+        <button class="custom-btn">CALENDER HOLIDAYS</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+{%extends "emp/base.html"%} {% block body_block %}
+
+<div class="text-center">
+  <p class="mt-5">{{ data.details }}</p>
+  <div class="d-flex justify-content-center gap-4">
+    <button>
+      <a href="{% url 'newsupdate' data.pk %}">Modify</a>
+    </button>
+    <button>
+      <a href="{% url 'newsdel' data.pk %}">Delete</a>
+    </button>
+    <a href="/news/"><button>Back to latest news</button></a>
+  </div>
+</div>
+
+{% endblock %}

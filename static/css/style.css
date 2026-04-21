@@ -1,0 +1,40 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-navbar{
+   background-color: #333 !important;
+   height: 76px;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: white !important;
+  font-size: 22px;
+}
+
+.custom-padding{
+ gap: 14px;
+}
+
+.welcome-para{
+    font-size: 20px;
+    color: #555;
+}
+
+.custom-margin{
+  margin-top: 150px !important;
+}
+
+.custom-btn {
+  width: 250px !important;      
+  height: 80px ;      
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

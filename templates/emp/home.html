@@ -1,0 +1,28 @@
+{%extends "emp/base.html"%} {% block body_block %} {% load static %}
+
+<div>
+  <img
+    style="height: 450px; object-fit: cover"
+    src="{% static 'images/hero-banner.webp' %}"
+    alt="Home Banner"
+    class="img-fluid w-100"
+  />
+</div>
+
+<div class="container mt-4 mb-4 text-center">
+  <h1>Welcome to Technova Solution</h1>
+  <p class="welcome-para mt-4">
+    TechNova Solutions is a modern IT company focused on delivering innovative
+    software solutions. This Employee Management System helps streamline HR
+    operations, manage employee data, and improve organizational efficiency. HR
+    managers can easily handle employee records, while employees can access
+    their personal information and updates. TechNova is one of the world's
+    largest suppliers of print solutions and India's most trusted partner for
+    offset, digital and flexo printing. With 50+ years of innovation, we empower
+    businesses across industries with world-class solutions, eco-friendly
+    technologies and a deep commitment to ethics, excellence and customer-first
+    partnerships.
+  </p>
+</div>
+
+{% endblock %}
